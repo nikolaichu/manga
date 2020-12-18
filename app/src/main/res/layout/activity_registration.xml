@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.enter.RegistrationActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Регистрация"
+        android:textAlignment="center"
+        android:layout_margin="30dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/registrationActivity_mail_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registrationActivity_mail_hint"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+    <EditText
+        android:id="@+id/registrationActivity_password_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registrationActivity_password_hint"
+        android:inputType="textPassword"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/registrationActivity_registration_Button"
+        android:layout_width="match_parent"
+        android:onClick="signUp_onClick"
+        android:layout_height="wrap_content"
+        android:layout_margin="45dp"
+        android:text="Зарегистрироваться"/>
+
+</LinearLayout>

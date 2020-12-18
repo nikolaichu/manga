@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.enter.RegistrationInfoActivity">
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/registrationActivity_ScrollView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:padding="10dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/registrationActivity_save_Button"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_height="">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/registrationActivityInfo_Name_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/registrationActivityInfo_Name_hint" />
+
+
+            <EditText
+                android:id="@+id/registrationActivityInfo_Lastname_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/registrationActivityInfo_Lastname_hint" />
+
+            <TextView
+                android:id="@+id/registrationActivityInfo_Sex_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="24dp"
+                android:text="Пол" />
+
+            <Spinner
+                android:id="@+id/registrationActivityInfo_Sex_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="24dp"
+                android:autofillHints="Пол"
+                android:entries="@array/sexItems" />
+
+            <TextView
+                android:id="@+id/registrationActivity_Date_of_Birth_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="24dp"
+                android:text="Дата рождения" />
+
+            <EditText
+                android:id="@+id/registrationActivity_Date_of_Birth_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="24dp" />
+
+            <EditText
+                android:id="@+id/registrationActivity_Country_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/registrationActivityInfo_Country_hint" />
+
+            <EditText
+                android:id="@+id/registrationActivity_About_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/registrationActivityInfo_About_hint" />
+
+
+
+
+
+        </LinearLayout>
+<!--    </ScrollView>-->
+
+    <Button
+        android:id="@+id/registrationActivity_save_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+<!--        app:layout_constraintTop_toBottomOf="@id/registrationActivity_ScrollView" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

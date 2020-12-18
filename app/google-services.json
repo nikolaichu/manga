@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728796850724",
+    "project_id": "mangaproject-beb4e",
+    "storage_bucket": "mangaproject-beb4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728796850724:android:efee2be957b3c6829b06b1",
+        "android_client_info": {
+          "package_name": "belstu.diploma.mobile.mangabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728796850724-0pbrpopplha20vskr46ekhr5ai65qc5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdrur-RYETpJRzknrleX3hQLZ5yexlwwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728796850724-0pbrpopplha20vskr46ekhr5ai65qc5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

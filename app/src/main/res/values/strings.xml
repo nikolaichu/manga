@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MangaBook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MangaBook</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="sexItems">
+        <item>Не выбрано</item>
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+
+    <string name="menu_home">Каталог</string>
+    <string name="menu_gallery">Авторы</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Создать книгу</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Переводчики</string>
+    <string name="loginActivity_login_hint">Введите эл. почту</string>
+    <string name="loginActivity_password_hint">Введите пароль</string>
+    <string name="loginActivity_forgetPassword_text">Забыли пароль?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="passwordRecoveryActivity_text_TextView">Укажите электронную почту, которую Вы использовали при регистрации. На эту почту мы вышлем ссылку для восстановления пароля.</string>
+    <string name="passwordrecoveryActivity_button_Text">Восстановить пароль</string>
+    <string name="registrationActivityInfo_Name_hint">Имя</string>
+    <string name="registrationActivityInfo_Lastname_hint">Фамилия</string>
+    <string name="registrationActivityInfo_Country_hint">Страна</string>
+    <string name="registrationActivity_login_hint">Электронная почта</string>
+    <string name="registrationActivity_password_hint">Пароль</string>
+    <string name="registrationActivity_mail_hint">Электронная почта</string>
+    <string name="registrationActivityInfo_About_hint">О себе</string>
+</resources>

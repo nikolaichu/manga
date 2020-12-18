@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddTranslatorFragment"
+    android:id="@+id/addTranslator"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить переводчика"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/addTranslatorFragment_nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/addTranslatorFragment_siteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Сайт"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/addTranslatorFragment_descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/addTranslatorFragment_save_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>
